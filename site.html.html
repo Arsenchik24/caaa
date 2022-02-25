@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <img src="Avatar.png" width="150" alt="Тут моя аватарка">
+    <h1>Скляр Арсений</h1>
+    <p><em>Я студент Ис-18 <stromg>Одинцовского Техникума</stromg> № 18</em></p>
+    <p>Прохожу обучение на 4 курсе.</p>
+    <hr>
+    <h2>Мои социальные сети</h2>
+    <ul>
+        <li><a href = "https://vk.com/arsenchik24" target="blank">ВКонтакте</a></li>
+        <li><a href = "https://instagram.com/arsen_sklyar" target="blank">Instagram</a></ul>
+    </ul>
+    <hr>
+    <h2>Мои увлечения</h2>
+    <ol type = "I">
+         <li>Студент</li>
+         <li>Веб дизайнер</li>
+         <li>Спорт</li>
+         <li>Вождениеl</li>
+    </ol>
+    <hr>
+        <h2>Опыт работы</h2>
+        <table border="2">
+            <tr>
+                <th>Компания</th>
+                <th>Должность</th>
+                <th>Год</th>
+            </tr>
+            <tr>
+                <td>H&M Groope</td>
+                <td>Cashier</td>
+                <td>2019-2020</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Информация о написании сайта</h2>
+        <a href = "https://developer.mozilla.org/ru/docs/Web/HTML" target="blank">!Список тегов!</a>
+        <br>
+        <a href = "">Второй Сайт</a>
+        <hr>
+        <h2>Связаться со мной</h2>
+        <form action="/">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" placeholder="Начните вводить">
+       <br>
+        </form>
+        <form>
+            <label for="Email">Почта</label>
+            <input type="email" id="Email" placeholder="Начните вводить">
+           <br>
+            <label for="text">Ваше сообщение:</label>
+           <br>
+            <textarea name="text" id="text" cols="15" rows="2"></textarea>
+           <br>
+            <input type="submit" value="Связаться">
+        </form>
+
+    </body>
+</html>
